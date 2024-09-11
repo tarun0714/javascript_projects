@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>projectGradient</title>
+</head>
+<style>
+body {
+    background-image: linear-gradient(to right, #051937, #008793);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    text-align: center;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+button {
+    background-color: #051937;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button#myButton2 {
+    background-color: #008793;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+h2 {
+    margin-top: 20px;
+    color: #051937;
+}
+
+.copyCode {
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #333;
+}
+</style>
+<body>
+    <section>
+        <div>
+            <button id="myButton">#051937</button>
+            <button id="myButton2">#008793</button>
+        </div>
+        <h2>copy your code here</h2>
+        <div class="copyCode">
+            background image: linear-gradient(to right, rgb(92, 145, 229), rgb(152, 63, 198)) 
+        </div>
+    </section>
+    <script src="gradient.js"></script>
+</body>
+</html>
